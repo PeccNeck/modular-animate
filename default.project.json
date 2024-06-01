@@ -1,7 +1,6 @@
 {
   "name": "Modular Humanoid Animations",
   "tree": {
-    "$className": "LocalScript",
     "$path": "Animate"
   }
 }
