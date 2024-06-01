@@ -36,15 +36,25 @@ __Cons__
 
 ---
 ### Add as Git submodule
-While the most complex method listed here, this is the one I'd personally recommend for most projects; though this one requires additional steps to set up correctly.
+While the most complex method listed here, this is the one I'd personally recommend for most projects; though this one requires a few additional steps to set up correctly.
 
 __Pros__
 - Scales best with teams and larger projects
-- Keeps everything self-contained in one repository
-- Easily maintainable, quickest to update
+- Allows you to pull new updates the quickest
+- Can be paired with a fork for additional modifications or to contribute upstream
 
 __Cons__
-- Most difficult to set up
-- Structure incompatibilities require additional scripts, making it no longer a drop-in replacement
+- More difficult to set up
+- Requires additional git knowledge to maintain
+- If not paired with a fork, cannot be directly modified, and will require additional scripts to "patch"
 
-Allan please add details
+You can read all about Git submodules [here](https://git-scm.com/book/en/v2/Git-Tools-Submodules), but the general steps are as follows:
+
+0. Open git bash. This can usually be done from your code editor, such as Visual Studio Code.
+1. Run `git submodule add https://github.com/PeccNeck/modular-animate` and append your desired directory to the end.
+    - If you're using a fork, replace the link with a link to your own fork.
+    - If you're given an error about it "already existing in index", you already have a folder there. Rename, or backup and delete, the folder; run `git rm -r` and append your directory, then try again.
+    - Your commands should look like `git submodule add https://github.com/PeccNeck/modular-animate src/StarterCharacter/Animate`, for instance.
+2. Inform your collaborators about the change in workflow, as they'll need to follow the next steps for themselves:
+3. When a collaborator pulls changes, they'll need to run the git bash command `git submodule update --init --recursive`. This will provide the actual files for the submodule.
+4. Whenever you, or a collaborator, would like to update your local copy of the submodule, run `git submodule update --remote --recursive`.
