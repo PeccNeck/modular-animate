@@ -4,8 +4,8 @@ A drop-in replacement for Roblox's default Animate script, written from the grou
 ## Integration
 Due to incompatibilities with how this repository is set up and how Rojo handles projects, there are three different ways to import this into your project, each with their own pros and cons. These are listed below, in order of least complexity to most.
 
-### Manual from Release
 ---
+### Manual from Release
 The simplest way of adding this to your project is to go to Releases, download the latest release as a `.rbxm`, and upload it directly to your game.
 
 __Pros__
@@ -17,8 +17,8 @@ __Cons__
 - If added to a Rojo project, limits your customizeability significantly
 - An incorrectly-configured project could wipe all your changes (see: [Rojo Project Format](https://rojo.space/docs/v7/project-format/#instance-description))
 
-### Fork and Manual Sync
 ---
+### Fork and Manual Sync
 Despite being the second option listed here, I *strongly* recommend against doing this, even for a solo project.
 
 It's possible to set up your own fork of this repository and manually sync it yourself when making changes, including pulling new changes from upstream.
@@ -33,8 +33,8 @@ __Cons__
 - Not viable for workspaces with multiple collaborators
 - Please don't do this it's not worth it
 
-### Add as Git submodule
 ---
+### Add as Git submodule
 While the most complex method listed here, this is the one I'd personally recommend for most projects; though this one requires additional steps to set up correctly.
 
 __Pros__
