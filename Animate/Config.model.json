@@ -1,0 +1,131 @@
+{
+    "ClassName": "Configuration",
+    "Children": [
+        {
+            "Name": "Debug",
+            "ClassName": "BoolValue",
+            "Properties": {
+                "Value": false
+            }
+        },
+        {
+            "Name": "EmoteTransitionTime",
+            "ClassName": "NumberValue",
+            "Properties": {
+                "Value": 0.1
+            }
+        },
+        {
+            "Name": "HumanoidHipHeight",
+            "ClassName": "NumberValue",
+            "Properties": {
+                "Value": 2
+            }
+        },
+        {
+            "Name": "ScaleDampeningPercent",
+            "ClassName": "NumberValue",
+            "Properties": {
+                "Value": 1
+            }
+        },
+        {
+            "Name": "ToolAttackTime",
+            "ClassName": "NumberValue",
+            "Properties": {
+                "Value": 0.3
+            }
+        },
+        {
+            "Name": "ToolTransitionTime",
+            "ClassName": "NumberValue",
+            "Properties": {
+                "Value": 0.1
+            }
+        },
+        {
+            "Name": "TransitionTime",
+            "ClassName": "NumberValue",
+            "Properties": {
+                "Value": 0.1
+            }
+        },
+        {
+            "Name": "WalkSpeed",
+            "ClassName": "NumberValue",
+            "Properties": {
+                "Value": 16
+            }
+        },
+
+        {
+            "Name": "R15",
+            "ClassName": "Folder",
+            "Children": [
+                {
+                    "Name": "ClimbSpeed",
+                    "ClassName": "NumberValue",
+                    "Properties": {
+                        "Value": 5
+                    }
+                },
+                {
+                    "Name": "JumpDuration",
+                    "ClassName": "NumberValue",
+                    "Properties": {
+                        "Value": 0.31
+                    }
+                },
+                {
+                    "Name": "SwimSpeed",
+                    "ClassName": "NumberValue",
+                    "Properties": {
+                        "Value": 10
+                    }
+                },
+                {
+                    "Name": "WalkPercent",
+                    "ClassName": "NumberValue",
+                    "Properties": {
+                        "Value": 0.5
+                    }
+                }
+            ]
+        },
+
+        {
+            "Name": "R6",
+            "ClassName": "Folder",
+            "Children": [
+                {
+                    "Name": "ClimbSpeed",
+                    "ClassName": "NumberValue",
+                    "Properties": {
+                        "Value": 12
+                    }
+                },
+                {
+                    "Name": "JumpDuration",
+                    "ClassName": "NumberValue",
+                    "Properties": {
+                        "Value": 0.3
+                    }
+                },
+                {
+                    "Name": "SwimSpeed",
+                    "ClassName": "NumberValue",
+                    "Properties": {
+                        "Value": 14.5
+                    }
+                },
+                {
+                    "Name": "WalkPercent",
+                    "ClassName": "NumberValue",
+                    "Properties": {
+                        "Value": -1
+                    }
+                }
+            ]
+        }
+    ]
+}
