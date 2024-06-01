@@ -57,4 +57,4 @@ You can read all about Git submodules [here](https://git-scm.com/book/en/v2/Git-
     - Your commands should look like `git submodule add https://github.com/PeccNeck/modular-animate src/StarterCharacter/Animate`, for instance.
 2. Inform your collaborators about the change in workflow, as they'll need to follow the next steps for themselves:
 3. When a collaborator pulls changes, they'll need to run the git bash command `git submodule update --init --recursive`. This will provide the actual files for the submodule.
-4. Whenever you, or a collaborator, would like to update your local copy of the submodule, run `git submodule update --remote --recursive`.
+4. Whenever you, or a collaborator, would like to update the submodule, run `git submodule update --remote --recursive`. This will fetch the latest changes from upstream.
