@@ -1,15 +1,7 @@
 {
   "name": "Modular Humanoid Animations",
   "tree": {
-    "$className": "DataModel",
-
-    "StarterPlayer": {
-      "StarterCharacterScripts": {
-        "$ignoreUnknownInstances": true,
-        "Animate": {
-          "$path": "Animate"
-        }
-      }
-    }
+    "$className": "LocalScript",
+    "$path": "Animate"
   }
 }

@@ -26,12 +26,13 @@ It's possible to set up your own fork of this repository and manually sync it yo
 __Pros__
 - Allows you to pull in new changes/updates from upstream
 - Simple to set up
+- Best for making independent contributions directly to the project
 
 __Cons__
 - Introduces horrible workflow practices
 - An incorrectly-configured project could require you to re-sync constantly
 - Not viable for workspaces with multiple collaborators
-- Please don't do this it's not worth it
+- Please don't do this in an actual project
 
 ---
 ### Add as Git submodule
